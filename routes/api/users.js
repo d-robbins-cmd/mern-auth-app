@@ -7,6 +7,11 @@ const validateLoginInput = require( '../../validation/login')
 const User = require( '../../models/User')
 require('dotenv').config()
 
+
+router.get('/fuck', (req, res)=>{
+  res.send('fuck yeah')
+})
+
 // @route POST api/users/register
 // @desc Register user
 // @access Public
@@ -90,6 +95,8 @@ router.post("/login", (req, res) => {
             });
           }
         )
+
+        
       } 
       else {
         return res
