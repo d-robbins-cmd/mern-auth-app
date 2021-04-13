@@ -33,7 +33,6 @@ import { GET_ERRORS, SET_CURRENT_USER, USER_LOADING } from './types'
         )
     }
 
-
     export const setCurrentUser = decoded => {
         return {
             type: SET_CURRENT_USER, payload: decoded
