@@ -1,1 +1,1 @@
-# mern-auth-app
+A simple MERN app for learning auth with JWT.  No biggie.
